@@ -1,6 +1,13 @@
 {
+  "scripts": {
+    "upload": "node src/upload.js"
+  },
   "dependencies": {
     "@elastic/elasticsearch": "^8.13.1",
-    "esmain": "github:elastic/elasticsearch-js"
+    "camelcase-input": "^1.0.5",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.4.5",
+    "esmain": "github:elastic/elasticsearch-js",
+    "fs": "^0.0.1-security"
   }
 }

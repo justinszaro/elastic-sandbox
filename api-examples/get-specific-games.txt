@@ -1,0 +1,8 @@
+GET steam_games/_search
+{
+  "query": {
+      "match": {
+          "name": "Counter-Strike"
+      }
+  }
+}

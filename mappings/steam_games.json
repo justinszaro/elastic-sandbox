@@ -1,0 +1,75 @@
+{
+    "settings": {
+        "number_of_shards": 1
+    },
+    "mappings": {
+        "properties": {
+            "name": {
+                "type": "text"
+            },
+            "release_date": {
+                "type": "date"
+            },
+            "english": {
+                "type": "boolean"
+            },
+            "developer": {
+                "type": "text"
+            },
+            "publisher": {
+                "type": "text"
+            },
+            "platforms": {
+                "type": "object"
+            },
+            "requiredAge": {
+                "type": "integer"
+            },
+            "categories": {
+                "type": "object"
+            },
+            "genres": {
+                "type": "object"
+            },
+            "steamspy_tags": {
+                "type": "object"
+            },
+            "achievements": {
+                "type": "integer"
+            },
+            "positive_ratings": {
+                "type": "integer"
+            },
+            "negative_ratings": {
+                "type": "integer"
+            },
+            "average_playtime": {
+                "type": "integer"
+            },
+            "median_playtime": {
+                "type": "integer"
+            },
+            "owners_min": {
+                "type": "number"
+            },
+            "owners_max:": {
+                "type": "number"
+            },
+            "price": {
+                "type": "float"
+            },
+            "detailedDescription": {
+                "type": "text"
+            },
+            "aboutTheGame": {
+                "type": "text"
+            },
+            "shortDescription": {
+                "type": "text"
+            },
+            "tags": {
+                "type": "object"
+            }
+        }
+    }
+}

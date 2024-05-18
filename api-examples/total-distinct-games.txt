@@ -1,0 +1,1 @@
+GET steam_games/_count
